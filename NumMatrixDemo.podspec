@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.source       = { :git => "https://github.com/chkm/NumMatrixDemo.git", :tag => "#{s.version}" }
   s.source_files  = "NumMatrixDemo/**/*.{h,m}"
-  s.public_header_files = 'JSONModel/**/*.h'
+  s.public_header_files = 'NumMatrixDemo/**/*.h'
   s.exclude_files = "Classes/Exclude"
 
   s.requires_arc = true
