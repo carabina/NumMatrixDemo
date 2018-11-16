@@ -6,6 +6,8 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
   caculate sudoku results.
                    DESC
+
+  s.homepage     = "https://github.com/chkm/NumMatrixDemo"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "ckm" => "kaiminchen@126.com" }
   s.platform     = :ios, "8.0"
